@@ -1,0 +1,12 @@
+# https://git-scm.com/docs/gitattributes
+
+# 改行コード指定
+*.txt       text
+*.vcproj    text eol=crlf
+*.sh        text eol=lf
+*.bat       text eol=crlf diff=cp932 working-tree-encoding=cp932
+
+*~ export-ignore
+.DS_Store export-ignore
+.gitignore export-ignore
+.gitattributes export-ignore
