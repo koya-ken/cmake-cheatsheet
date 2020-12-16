@@ -1,5 +1,8 @@
 #include <iostream>
 #include <one/one.h>
+#ifndef __GNUC__
+#define __GNUC__ 1
+#endif
 
 int main(void)
 {
