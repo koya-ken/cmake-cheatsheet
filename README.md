@@ -44,3 +44,9 @@ clang -dM -E - < /dev/null
 g++ -dM -E -x c++ - < /dev/null
 clang++ -dM -E -x c++ - < /dev/null
 ```
+
+# stdcallについて
+
+64bitでは呼び出し方がstdcallでもcdeclでもない
+アーキテクチャで変わってくる模様
+https://ameblo.jp/reverse-eg-mal-memo/entry-12608477931.html
